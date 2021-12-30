@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* 메인페이지 공통구역을 제외한 본문구역 스타일 */
+.slideouter {
+    width:100%;
+    height:900px;
+    overflow:hidden;
+}
+.slideouter .slide{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:900px;
+}
+.slideouter .slide1{
+    background-image: url(../img/slide1.jpg);
+}
+.slideouter .slide2{
+    background-image: url(../img/slide2.jpg);
+}
+.slideouter .slide3{
+    background-image: url(../img/slide3.jpg);
+}
+.slideouter .slide4{
+    background-image: url(../img/slide4.jpg);
+}
+
+.content1 {
+    margin-top:140px;
+    min-height:379px;
+    position:relative
+}
+.content1 .tomato {
+    position:absolute;
+    bottom:-150px;
+    right:-320px;
+}
+.content1 .video {width:600px;height:379px;}
+.content1 .youtube {
+    width:100%;
+    height:100%;
+    background:url(https://i.ytimg.com/vi_webp/oNZZ1Xr6OjI/sddefault.webp) center no-repeat
+}
+.content1 .mention {
+    position:absolute ;top:0;left:60%;
+    
+}
+.content1 .mention h1 {
+    font-size:52px;
+    padding-top:52px;
+    line-height:52px;
+    letter-spacing:0.3px;
+}
+.content1 .mention h2 {
+    font-size:24px;
+    line-height:32px;
+    font-weight: 500;
+    padding-top:18px;
+}
+.content1 .mention p {
+    font-size:15px;
+    color:#666;
+    line-height:25px;
+    padding-top:30px;
+}
+.content2 {
+    margin-top:140px;
+    position:relative;
+    overflow:hidden;
+    height:620px;
+}
+.content2 .babybackribs .shrimp{
+    width:310px;
+    padding-top:107px;
+}
+.content2 .babybackribs .ex{
+    position:absolute;
+    padding-top:90px;
+    top:0;
+    left: 27%;
+    z-index:99
+}
+.babybackribs .ex h1{
+    font-size:80px;
+    line-height:84px;
+}
+.babybackribs .ex h2{
+    font-size:26px;
+    line-height:32px;
+    padding-top:11px;
+    font-weight:500;
+}
+.babybackribs .ex p {
+    font-size:15px;
+    line-height:25px;
+    padding-top:29px;
+    color:#666
+}
+.content2 .babybackribs .backribs{
+    position:absolute;
+    top:0; right:0;
+}
+.content3 {
+    background-image: url(../img/main_benefit_visual.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:520px;
+    margin-top:245px;
+    position:relative;
+}
+.content3 .garnish{
+    position:absolute;
+    top:-300px;left:150px;
+    z-index:-111
+}
+.content3 > h2 {
+    padding-top:75px;
+    color:#fff;
+    font-size:54px;
+    text-align: center;
+}
+.content3 > p {
+    padding-top:10px;
+    color:rgba(255,255,255,0.7);
+    text-align:center;
+    font-size:16px;
+}
+.content3 .benefit {
+    margin-top:68px;
+    padding:0 45px;
+}
+.content3 .benefit li {
+    width:33.3333%;
+    float:left;
+    text-align: center;
+}
+.content3 .benefit li a{
+    display:inline-block;
+}
+.content3 .benefit li a h3 {
+    color:#fff;
+    margin-top:35px;
+    font-size:28px;
+}
+.content3 .benefit li a p {
+    margin-top:14px;
+    color:rgba(255,255,255,0.7);
+    font-size:14px;
+}
+.content4 { 
+    margin:74px 0 170px;
+}
+.content4 .reward {
+    width:280px;
+    height:260px;
+    border:5px solid #000;
+}
+
+.content4 .reward .boomerang{
+    margin-top:-15px;
+    margin-left:-5px;
+    background:#fff;
+    display:inline-block
+}
+.content4 .reward h2 {
+    font-size:32px;
+    line-height: 52px;
+    letter-spacing: 1.92px;
+}
+.content4 .reward h1 {
+    font-size:52px;
+    line-height: 52px;
+    letter-spacing: 1.92px;
+}
+.content4 .reward p {
+    font-size:16px;
+    color:#666;
+    margin-top:20px;
+}
+
+.content4 .reward .look {
+    width:100px;
+    height:32px;
+    background:#000;
+    margin:25px 0;
+    color:#fff;
+    text-align: center;
+    font-size:13px;
+    
+}
+.content4 .reward .look a {
+    display:block;
+    padding-top:8px;
+}
+.content4 {position:relative}
+.content4 .rewardinfo {
+    width:900px;
+    position:absolute;
+    top:0;right:-60px;
+}
+.content4 .rewardinfo li {
+    float:left;
+    width:33.3333%;
+}
+.content4 .rewardinfo h3 {
+    color:#96603d;
+    opacity:0.4;    
+    font-size:16px;
+    font-weight: normal;
+}
+.content4 .rewardinfo h4 {
+    font-size:18px;
+    margin-top:10px;
+}
+.content4 .rewardinfo p {
+    height:90px;
+    margin-top:10px;
+    font-size:14px;
+    color:#666;
+}
